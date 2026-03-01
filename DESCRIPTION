@@ -1,0 +1,20 @@
+Package: GRNSimilarity
+Type: Package
+Title: Single-Cell Gene Regulatory Network Similarity and Virtual Knockout
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Codex", family = "Assistant", role = c("aut", "cre"), email = "codex@example.com")
+)
+Description: Tools for single-cell gene regulatory network (GRN) analysis,
+    including GRN inference via hdWGCNA-like, ARACNE-like and SCENIC-like
+    strategies, virtual transcription-factor knockout, network similarity
+    comparison, and subgroup-based TF impact ranking.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    stats,
+    utils
