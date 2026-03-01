@@ -1,0 +1,5 @@
+export(inferGRN)
+export(simulateKO)
+export(calculateSimilarity)
+export(networkRanking)
+export(singlecell_data)
