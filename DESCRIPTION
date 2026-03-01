@@ -18,3 +18,8 @@ Depends: R (>= 4.1.0)
 Imports:
     stats,
     utils
+
+Suggests:
+    hdWGCNA,
+    corto,
+    SCENIC
